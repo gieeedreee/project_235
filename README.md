@@ -20,7 +20,7 @@ Here are some steps how to do it:
 
 3. Create a unique name for your Web app.
 
-    $ heroku create '<app name>'-app
+    $ heroku create "app_name"-app
     
 4. Push your code from local to the heroku remote.
 
@@ -31,11 +31,11 @@ Here are some steps how to do it:
 
 The best tool for making HTTP requests is Postman. Here is the link which should be used for creating a request:
 
-https://"app_name".herokuapp.com/predict
+    https://"app_name".herokuapp.com/predict
     
 There is only POST request in this project and requests should be made in this format (POST/ write link/ choose body/ raw/ copy request and SEND):
 
-{"data": [[20, 0, 4.1, 0, 0.368, 4.906, 90, 1.1742, 4, 666,20.2, 396.9, 34.77]]}
+    {"data": [[20, 0, 4.1, 0, 0.368, 4.906, 90, 1.1742, 4, 666,20.2, 396.9, 34.77]]}
 
 
 Here are all packages required for running the Web API:

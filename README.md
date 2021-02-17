@@ -20,18 +20,18 @@ Here are some steps how to do it:
 
 3. Create a unique name for your Web app.
 
-    $ heroku create <app name>-app
+    $ heroku create '<app name>'-app
     
 4. Push your code from local to the heroku remote.
 
     $ git push heroku master
     
-5. Finally, web app will be deployed on http://<app name>.herokuapp.com (instead of <app name> use your app name).
+5. Finally, web app will be deployed on http://<app name>.herokuapp.com (instead of '<app name>' use your app name).
 
 
 The best tool for making HTTP requests is Postman. Here is the link which should be used for creating a request:
 
-https://<app name>.herokuapp.com/predict
+https://'<app name>'.herokuapp.com/predict
     
 There is only POST request in this project and requests should be made in this format (POST/ write link/ choose body/ raw/ copy request and SEND):
 

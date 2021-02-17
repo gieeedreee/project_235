@@ -19,7 +19,6 @@ def __process_input(request_data: str) -> np.array:
 @app.route("/predict", methods=["POST"])
 def predict() -> str:
     input_params = __process_input(request.data)
-    print(len(input_params))
     if request.method == "POST":
         try:
             prediction = clf.predict(input_params)

@@ -33,7 +33,7 @@ The best tool for making HTTP requests is Postman. Here is the link which should
 
     https://"app_name".herokuapp.com/predict
     
-There is only POST request in this project and requests should be made in this format (POST/ write link/ choose body/ raw/ copy request and SEND):
+There is only POST request in this project and requests should be made in this format (POST/ write link/ choose body/ raw/ copy request given below and SEND):
 
     {"data": [[20, 0, 4.1, 0, 0.368, 4.906, 90, 1.1742, 4, 666,20.2, 396.9, 34.77]]}
 

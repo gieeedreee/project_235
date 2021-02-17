@@ -10,21 +10,21 @@ The third part of this project is Deploying Flask App on Heroku.
 Here are some steps how to do it:
 1. Initialize an empty repo, add the files in the repo and commit all the changes:
 
-    $ git init 
+        $ git init 
     
-    $ git add .
+        $ git add .
     
-    $ git commit -m "Initial Commit"
+        $ git commit -m "Initial Commit"
     
 2. Login to heroku CLI using: heroku login
 
 3. Create a unique name for your Web app.
 
-    $ heroku create "app_name"-app
+        $ heroku create "app_name"-app
     
 4. Push your code from local to the heroku remote.
 
-    $ git push heroku master
+        $ git push heroku master
     
 5. Finally, web app will be deployed on http://"app_name".herokuapp.com (instead of "app_name" use your app name).
 

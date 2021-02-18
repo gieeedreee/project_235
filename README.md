@@ -2,11 +2,8 @@
 
 This project is about training a simple regression model ('Gradient boosted tree') that can predict house price. The model is in 'prediction.py' file.
 
-Second part of this project is to creat API for the trained model. The Flask app you can find in 'app.py' file.
+Other part of this project is to creat API for the trained model. The Flask app you can find in 'app.py' file.
 This file contains the code, for running the Web API of the final model (which was saved as "clf.pkl" and then loaded in 'app.py') chosen after model evaluation.
-
-
-The third part of this project is Deploying Flask App on Heroku.
 
 
 Here are all packages required for running the Web API:
